@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  row-gap: 30px;
+  margin-top: 30px;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.pContainer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
+
+.leftContainer {
+  display: flex;
+  column-gap: 90px;
+}
+.rightContainer {
+  display: flex;
+  column-gap: 34px;
+}
+
+.pleftContainer{
+  display: flex;
+  column-gap: 40px;
+}
+
+.prightContainer{
+  display: flex;
+  column-gap: 40px;
+}
+.eContainer {
+  display: flex;
+  column-gap: 63px;
+}
+
+input#Email {
+  width: 662px;
+}
+
+input{
+  width: 200px;
+  height: 25px;
+}
+
+select{
+  width: 202px;
+  height: 25px;
+}
+
+.ddContainer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 107px ;
+}
+
+.monthContainer {
+  display: flex;
+  column-gap: 65px;
+}
+
+.yearContainer {
+  display: flex;
+  column-gap: 25px;
+}
+
+.btnContainer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: self-end;
+}
+button#btn-submit {
+  width: 150px;
+  height: 40px;
   color: white;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* 
+div#opContainer {
+  display: flex;
+  position: absolute;
+  height: 266px;
+  width: 1366px;
 }
 
-.App-link {
-  color: #61dafb;
+.output {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 430px;
+  top: 40px;
+  row-gap: 20px;
+}    */
+
+div#opContainer {
+  margin-top:40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.output {
+  display: flex;
+  flex-direction: column;
+  top: 40px;
+  row-gap: 20px;
 }
